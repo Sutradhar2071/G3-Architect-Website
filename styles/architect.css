@@ -216,6 +216,21 @@ main > section{
     filter: grayscale(100%);
 }
 
+/* footer styles */
+
+footer{
+    display: grid;
+    max-width: 1440px;
+    height: 103px;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+
+footer h4{
+    text-align: center;
+    /* justify-content: center; */
+}
+
 @media screen and (max-width: 576px) {
 
     .navbar,
